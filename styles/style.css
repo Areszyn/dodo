@@ -1,0 +1,36 @@
+/* Basic styling for the payment page */
+body {
+  background: #f8f8f8;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#response {
+  margin-top: 20px;
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  max-height: 300px;
+  overflow-y: auto;
+  text-align: left;
+  white-space: pre-wrap;
+  font-size: 14px;
+}
