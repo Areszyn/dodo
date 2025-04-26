@@ -1,0 +1,14 @@
+{
+  "name": "dodo-payment-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "stripe": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel deploy"
+  }
+}
